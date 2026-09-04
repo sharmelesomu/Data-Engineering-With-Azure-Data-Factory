@@ -1,0 +1,56 @@
+{
+	"name": "Source_to_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedServices_NEW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sourcelogs"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "snapshot_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "snapshot_date",
+				"type": "UTF8"
+			},
+			{
+				"name": "warehouse_code",
+				"type": "UTF8"
+			},
+			{
+				"name": "sku",
+				"type": "UTF8"
+			},
+			{
+				"name": "qty_on_hand",
+				"type": "INT64"
+			},
+			{
+				"name": "qty_reserved",
+				"type": "INT64"
+			},
+			{
+				"name": "qty_in_transit",
+				"type": "INT64"
+			},
+			{
+				"name": "days_of_supply",
+				"type": "DOUBLE"
+			},
+			{
+				"name": "stock_cover_status",
+				"type": "UTF8"
+			}
+		]
+	}
+}
