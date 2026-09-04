@@ -222,7 +222,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"source": {
-									"type": "ParquetSource",
+									"type": "DelimitedTextSource",
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
 										"recursive": true,
@@ -233,7 +233,7 @@
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
-										"type": "ParquetReadSettings"
+										"type": "DelimitedTextReadSettings"
 									}
 								},
 								"sink": {
@@ -255,7 +255,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "Source_to_DB",
+									"referenceName": "Source_to_DB_CSV",
 									"type": "DatasetReference"
 								}
 							],
