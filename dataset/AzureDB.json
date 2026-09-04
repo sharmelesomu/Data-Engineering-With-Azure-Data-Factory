@@ -5,6 +5,11 @@
 			"referenceName": "AzureSqlDatabaseLinkedServices_NEW",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Enter_Tbl_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
