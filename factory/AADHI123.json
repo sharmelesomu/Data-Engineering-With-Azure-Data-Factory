@@ -1,0 +1,15 @@
+{
+	"name": "AADHI123",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2a8f99f2-3c26-4817-adf1-556ee2807170",
+		"tenantId": "d4aa05d1-c4d2-4932-801b-9bbb6a39bd5a"
+	}
+}

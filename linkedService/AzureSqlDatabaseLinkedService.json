@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabaseLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "firstserver.database.windows.net",
+			"database": "first db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sharme",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ3MkNFMUYxLUMzRjQtNEU1Qy04OEE3LUY3NkJCNDRDRTU3NV9jMDE2Y2QxYy1iNTgwLTQ2YjUtODE4OS0zZjEyNWFhZmI2ZGQiDQp9"
+		}
+	}
+}
