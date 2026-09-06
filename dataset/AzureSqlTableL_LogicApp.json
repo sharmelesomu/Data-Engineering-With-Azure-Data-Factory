@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlTableL_LogicApp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedServices_NEW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "LA"
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"name": "LogicApp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedServices_NEW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "inv.csv",
+				"container": "sourcelogs"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "snapshot_id",
+				"type": "String"
+			},
+			{
+				"name": "snapshot_date",
+				"type": "String"
+			},
+			{
+				"name": "warehouse_code",
+				"type": "String"
+			},
+			{
+				"name": "sku",
+				"type": "String"
+			},
+			{
+				"name": "qty_on_hand",
+				"type": "String"
+			},
+			{
+				"name": "qty_reserved",
+				"type": "String"
+			},
+			{
+				"name": "qty_in_transit",
+				"type": "String"
+			},
+			{
+				"name": "days_of_supply",
+				"type": "String"
+			},
+			{
+				"name": "stock_cover_status",
+				"type": "String"
+			}
+		]
+	}
+}
