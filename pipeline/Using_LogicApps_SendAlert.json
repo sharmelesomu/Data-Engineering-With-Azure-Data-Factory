@@ -80,7 +80,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"method": "POST",
-								"url": "https://prod-21.northcentralus.logic.azure.com:443/workflows/0ead3014c54244b583a7589ec77e2932/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=VON6CIwlwtwUkGKGBtvmPF8exxaCbgMtOth3lNqP4lI",
+								"url": "https://prod-09.northcentralus.logic.azure.com:443/workflows/c90d33229b464d4986de8424c57d74f7/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=pXGlvnCTjcLPGoJmTgh1sODMnYuCfOORXn1MPzCwdOk",
 								"body": "Hi"
 							}
 						}
@@ -104,7 +104,6 @@
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
 										"recursive": true,
-										"wildcardFileName": "*.csv",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
@@ -130,7 +129,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "LogicApp",
+									"referenceName": "Blank_Source",
 									"type": "DatasetReference"
 								}
 							],
