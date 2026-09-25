@@ -1,0 +1,15 @@
+{
+	"name": "sharaadhi88",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e0517c03-53ba-4cd1-84ab-e9d06231a86d",
+		"tenantId": "412aa1a0-9249-4080-8f65-13d1922bd424"
+	}
+}
