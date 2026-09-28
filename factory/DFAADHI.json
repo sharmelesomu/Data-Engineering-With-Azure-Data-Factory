@@ -1,0 +1,15 @@
+{
+	"name": "DFAADHI",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "94db333a-d8dc-467b-9e3c-28d94c5d293f",
+		"tenantId": "412aa1a0-9249-4080-8f65-13d1922bd424"
+	}
+}
